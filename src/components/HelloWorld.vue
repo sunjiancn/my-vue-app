@@ -27,16 +27,24 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+
+    <div style="height:400px;width:100%;backgroud-color:red;">
+      <mt-swipe :auto="4000">
+        <mt-swipe-item>1</mt-swipe-item>
+        <mt-swipe-item>2</mt-swipe-item>
+        <mt-swipe-item>3</mt-swipe-item>
+      </mt-swipe>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
     msg: String
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
